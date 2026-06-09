@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PostComposer from '../components/PostComposer';
 import PostCard from '../components/PostCard';
@@ -20,15 +20,6 @@ import MiniPic from '../assets/images/mini_pic.png';
 import MobileStoryImg from '../assets/images/mobile_story_img.png';
 import MobileStoryImg1 from '../assets/images/mobile_story_img1.png';
 import MobileStoryImg2 from '../assets/images/mobile_story_img2.png';
-import TxtImg from '../assets/images/txt_img.png';
-import PostImg from '../assets/images/post_img.png';
-import TimelineImg from '../assets/images/timeline_img.png';
-import ReactImg1 from '../assets/images/react_img1.png';
-import ReactImg2 from '../assets/images/react_img2.png';
-import ReactImg3 from '../assets/images/react_img3.png';
-import ReactImg4 from '../assets/images/react_img4.png';
-import ReactImg5 from '../assets/images/react_img5.png';
-import CommentImg from '../assets/images/comment_img.png';
 import Avatar from '../assets/images/Avatar.png';
 
 const Feed = () => {

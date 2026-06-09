@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import TxtImg from '../assets/images/txt_img.png'
 
 function PostComposer({ onPostCreated }) {

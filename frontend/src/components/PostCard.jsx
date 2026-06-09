@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import PostImg from '../assets/images/post_img.png'
 import CommentImg from '../assets/images/comment_img.png'
 import ReactImg1 from '../assets/images/react_img1.png'

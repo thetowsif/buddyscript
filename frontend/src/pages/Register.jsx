@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Registrationimg from '../assets/images/registration.png'
 import Companylogo from '../assets/images/logo.svg'
@@ -41,7 +41,7 @@ const Register = () => {
             }
 
             navigate('/')
-        } catch (err) {
+        } catch {
             setError('Could not connect to server')
         }
     }
